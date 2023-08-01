@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:context=".superheroapp.SuperHeroActivity">
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/save"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/saveButton"
+    android:layout_alignParentTop="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/hero_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@android:drawable/ic_menu_camera"/>
+        <EditText
+            android:id="@+id/hero_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/hero_image"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/hero_image"
+            android:hint="@string/Superhero_name"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/alter_ego_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/hero_image"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/hero_image"
+            android:hint="@string/alter_hego"
+            android:minHeight="48dp"/>
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/hero_image"
+            android:layout_marginTop="16dp"
+            android:background="@color/black"/>
+        <TextView
+            android:id="@+id/bio_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/Bio"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/bio_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bio_text"
+            android:layout_marginTop="16dp"
+            android:hint="@string/bio_hint"
+            android:minHeight="48dp" />
+        <TextView
+            android:id="@+id/power_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bio_edit"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/power"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <RatingBar
+            android:id="@+id/powerBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/power_text"
+            android:layout_centerHorizontal="true"
+            android:progressTint="@color/rating_bar"/>
+
+    </RelativeLayout>
+</ScrollView>
+    </RelativeLayout>
+</layout>

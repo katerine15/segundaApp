@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--AgeDog-->
+    <string name="how_old_are_you">¿Cuantos años tienes</string>
+    <string name="your_ege">Tu edad</string>
+    <string name="calculator">Calcular"</string>
+    <string name="you_must_insert_your_age">Debes insertar tu edad</string>
+    <string name="result_text">Tu edad canina es de %d años</string>
+
+    <!--Super Hero-->
+    <string name="Superhero_name" translatable="false">Super nombre</string>
+    <string name="Bio" translatable="false">Bio</string>
+    <string name="bio_hint" translatable="false">Breve bibliografia del personaje</string>
+    <string name="power" translatable="false">Poder</string>
+    <string name="save" translatable="false">Guardar</string>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name" translatable="false">SegundaApp</string>
+    <!--IMC APP-->
+    <string name="male" translatable="false">Hombre</string>
+    <string name="female" translatable="false">Mujer</string>
+    <string name="height" translatable="false">Altura</string>
+    <string name="weight" translatable="false">Peso</string>
+    <string name="Age" translatable="false">Años</string>
+    <string name="calculate" translatable="false">Calcular</string>
+    <string name="result" translatable="false">Tu resultado</string>
+    <string name="recalculate" translatable="false">Re-Calcular</string>
+
+    <string name="error" translatable="false">Error</string>
+
+    <string name="title_under_weight" translatable="false">Bajo peso</string>
+    <string name="description_under_weight" translatable="false">Estás por debajo de lo óptimo para tu peso y altura.</string>
+
+    <string name="title_normal_weight" translatable="false">Normal</string>
+    <string name="description_normal_weight" translatable="false">Estás en lo optimo para tu peso y altura.</string>
+
+    <string name="title_overweight" translatable="false">Sobrepeso</string>
+    <string name="description_overweight" translatable="false">Estás por encima de lo óptimo para tu peso y altura.</string>
+
+    <string name="title_obesity" translatable="false">Obesidad</string>
+    <string name="description_obesity" translatable="false">Estás MUY por encima de lo óptimo para tu peso y altura.</string>
+
+    <!--ToDoAPP-->
+    <string name="todo_title" translatable="false">Bienvenido adso</string>
+    <string name="todo_categories" translatable="false">Categorias:</string>
+    <string name="todo_task" translatable="false">Tareas:</string>
+    <string name="todo_dialog_add_tas" translatable="false">Añade la tarea</string>
+
+    <string name="todo_dialog_category_business" translatable="false">Negocios</string>
+    <string name="todo_dialog_category_personal" translatable="false">Persona</string>
+    <string name="todo_dialog_category_other" translatable="false">Otros</string>
+    <string name="todo_dialog_creted_task" translatable="false">Crear tarea</string>
+
+    <!--AgeDog-->
+    <string name="how_old_are_you">How old are you?</string>
+    <string name="your_ege">Your age</string>
+    <string name="calculator">Calculate"</string>
+    <string name="you_must_insert_your_age">You must insert your age</string>
+    <string name="result_text">Your dog age is %d year old</string>
+
+    <!--SuperHero-->
+    <string name="Superhero_name" translatable="false">Superhero_name</string>
+    <string name="alter_hego" translatable="false">Alter Ego</string>
+    <string name="Bio" translatable="false">Bio</string>
+    <string name="bio_hint" translatable="false">Brief bio</string>
+    <string name="power" translatable="false">Power</string>
+    <string name="save" translatable="false">SAVE</string>
+
+    <string name="hero_name" translatable="false">Iron man</string>
+</resources>

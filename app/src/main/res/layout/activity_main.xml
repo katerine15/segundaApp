@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--El botón se extiende horizontalmente para ocupar -->
+    <!--el espacio disponible-->
+    <Button
+        android:id="@+id/btnIMCApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC APP"/>
+
+    <Button
+        android:id="@+id/btnToDoApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToDo App"/>
+    <Button
+        android:id="@+id/btnAgeDogApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AgeDog App"/>
+    <Button
+        android:id="@+id/btnSuperHeroApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SuperHero App"/>
+    <Button
+        android:id="@+id/btnSuperHeroDosApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SuperHero DOS App"/>
+</LinearLayout>
